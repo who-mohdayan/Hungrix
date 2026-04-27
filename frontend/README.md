@@ -1,4 +1,4 @@
-# Dinex
+# Hungrix
 
 An AI-powered Food Waste Prevention and Mess Optimization System for hostels and college mess facilities with complete backend integration.
 

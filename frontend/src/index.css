@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--dinorix-bg: #f5f7f2;
+		--dinorix-panel: #ffffff;
+		--dinorix-text: #152419;
+		--dinorix-muted: #5f6f62;
+		--dinorix-primary: #245636;
+		--dinorix-primary-soft: #d9ebdd;
+		--dinorix-accent: #d67a2e;
+		--dinorix-accent-soft: #fff0e2;
+		--dinorix-border: #d8e1d7;
+	}
+
+	html,
+	body,
+	#root {
+		min-height: 100%;
+	}
+
+	body {
+		margin: 0;
+		background:
+			radial-gradient(circle at 10% 10%, #f1f8f1 0%, transparent 35%),
+			radial-gradient(circle at 90% 8%, #fff2e5 0%, transparent 32%),
+			var(--dinorix-bg);
+		color: var(--dinorix-text);
+		font-family: 'Sora', 'Segoe UI', sans-serif;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
+		letter-spacing: -0.01em;
+	}
+
+	input,
+	select,
+	textarea {
+		border-radius: 0.75rem;
+	}
+
+	input:focus,
+	select:focus,
+	textarea:focus {
+		outline: none;
+		box-shadow: 0 0 0 3px rgba(36, 86, 54, 0.2);
+	}
+}
+
+@layer components {
+	.app-shell {
+		@apply rounded-2xl border border-slate-200 bg-white shadow-sm;
+	}
+
+	.page-title {
+		@apply text-2xl font-semibold text-slate-900;
+	}
+
+	.page-subtitle {
+		@apply text-sm text-slate-500;
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "meal_type": "dinner",
+  "day_of_week": 5,
+  "menu_popularity_score": 5,
+  "holiday_flag": 0,
+  "exam_period_flag": 0,
+  "total_registered_students": 300,
+  "current_bookings": 270,
+  "last_7_day_avg_attendance": 250
+}

@@ -1,4 +1,4 @@
-# Campus Food Intelligence System - Backend
+# Hungrix - Backend
 
 A comprehensive backend API for managing campus food services with intelligent booking and waste reduction features.
 

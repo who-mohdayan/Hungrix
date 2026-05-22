@@ -6,7 +6,6 @@ Welcome to **Hungrix**! This is a full-stack application that integrates a front
 
 Hungrix is deployed and live on Vercel!  
 **Check it out here:** [https://hungrix.vercel.app](https://hungrix.vercel.app)  
-*(Replace with your correct Vercel URL if different.)*
 
 ## 🗂️ Project Structure
 

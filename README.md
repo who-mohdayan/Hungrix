@@ -2,6 +2,12 @@
 
 Welcome to **Hungrix**! This is a full-stack application that integrates a frontend web interface, a robust backend API, and a machine learning component.
 
+## 🌐 Live Demo
+
+Hungrix is deployed and live on Vercel!  
+**Check it out here:** [https://hungrix.vercel.app](https://hungrix.vercel.app)  
+*(Replace with your correct Vercel URL if different.)*
+
 ## 🗂️ Project Structure
 
 This repository is organized into three main components:
@@ -39,6 +45,17 @@ Make sure you have standard development tools installed (like [Node.js](https://
    npm install
    npm start
    ```
+
+### 🚢 Deployment
+
+This project uses [Vercel](https://vercel.com/) for deployment.
+
+- Pushes to the `main` branch are automatically deployed to Vercel.
+- For manual deployment or preview deployments, use the [Vercel CLI](https://vercel.com/docs/cli):
+  ```bash
+  vercel
+  ```
+- Configure your Vercel project to point to the appropriate frontend directory as the root.
 
 *(Note: Specific instructions for the `ml_model` and further backend configurations may be added here later.)*
 

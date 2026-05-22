@@ -1,10 +1,6 @@
 # 🍽️ Hungrix
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)](https://hungrix.vercel.app)
-
 Welcome to **Hungrix**! This is a full-stack application that integrates a frontend web interface, a robust backend API, and a machine learning component.
-
-**Live Demo:** [https://hungrix.vercel.app](https://hungrix.vercel.app)
 
 ## 🗂️ Project Structure
 

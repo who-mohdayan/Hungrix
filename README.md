@@ -1,0 +1,57 @@
+# 🍽️ Hungrix
+
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)](https://hungrix.vercel.app)
+
+Welcome to **Hungrix**! This is a full-stack application that integrates a frontend web interface, a robust backend API, and a machine learning component.
+
+**Live Demo:** [https://hungrix.vercel.app](https://hungrix.vercel.app)
+
+## 🗂️ Project Structure
+
+This repository is organized into three main components:
+
+- **`/frontend`**: The user interface of the application.
+- **`/backend`**: The server-side API that powers the application logic.
+- **`/ml_model`**: The machine learning scripts and models.
+
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these simple steps:
+
+### Prerequisites
+
+Make sure you have standard development tools installed (like [Node.js](https://nodejs.org/) for the web apps and [Python](https://www.python.org/) for the ML models).
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/who-mohdayan/Hungrix.git
+   cd Hungrix
+   ```
+
+2. **Setup the Frontend:**
+   ```bash
+   cd frontend
+   npm install
+   npm start
+   ```
+
+3. **Setup the Backend:**
+   ```bash
+   cd ../backend
+   npm install
+   npm start
+   ```
+
+*(Note: Specific instructions for the `ml_model` and further backend configurations may be added here later.)*
+
+## 🤝 Contributing
+
+Contributions are always welcome! 
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
